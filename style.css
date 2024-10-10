@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    font-family:Roboto;
+    background-color: #f7f7f7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #231f20;
+    padding: 10px;
+    color: white;
+}
+
+.logo-container {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.logo-container img {
+    height: 100px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a.sobre { background-color: #ed1c24; }
+nav ul li a.lineup { background-color: #23b5d3; }
+nav ul li a.merch { background-color: #f4c242; }
+nav ul li a.comida { background-color: #7fbb00; }
+nav ul li a.karaoke { background-color: #6a1b9a; }
+nav ul li a.informações { background-color: #f5025f; }
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #231f20;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: #ed1c24;
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.lineup-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.lineup-day {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 150px;
+}
+
+.day-title {
+    color: #ff5733;
+}
+
+h1 {
+    text-align: center; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 10px; 
+    margin-top: 10px;
+}
+.artist-image {
+    width: 100%; 
+    height: auto; 
+}
